@@ -20,13 +20,13 @@
 
 // ** MySQL settings ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'scotchbox' );
+define( 'DB_NAME', 'kunliang_abstergo' );
 
 /** MySQL database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'kunliang_abs' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'root' );
+define( 'DB_PASSWORD', 'admin' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
@@ -55,6 +55,7 @@ define('SECURE_AUTH_SALT', 'N?OE=/];ql]~t<[2,IS=%<dts/P1O6zeo_lBgefL;$o+U#hczNoq
 define('LOGGED_IN_SALT',   'qMWCfFKNFf=q4]y~)X@Xmq])RR|t%dkOE^NJT?=^sQg/sNs?B2!s%.y5jx#mq`^i');
 define('NONCE_SALT',       '7.K&l/oIs:R3?J#Be?~B-Uu+aF}2m(&fa`r,>R+NZw!UC!Xt#n0^V-.iE,;k,%8m');
 
+define('WP_ALLOW_REPAIR', true);
 
 /**
  * WordPress Database Table prefix.
